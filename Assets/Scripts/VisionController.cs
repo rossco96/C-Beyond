@@ -10,6 +10,11 @@ public class VisionController : MonoBehaviour
 
 	[SerializeField] private Camera testCamera;
 
+	[SerializeField] private Camera camDim1;
+	[SerializeField] private Camera camDim2;
+	[SerializeField] private Camera camDim3;
+	[SerializeField] private Camera camDim4;
+
 	public enum VisionState
 	{
 		Normal,
